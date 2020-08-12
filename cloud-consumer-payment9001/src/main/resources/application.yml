@@ -1,0 +1,19 @@
+server:
+  port: 9001
+spring:
+  application:
+      name: cloud-consumer-payment  # 入驻eureka的名称
+      #配置sleush + zipkin
+  zipkin:
+    bash-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+eureka:
+  instance:
+    hostname: provider9001
+  client:
+    register-with-eureka: true  #表示将自己注册进eureka 服务注册中心
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ # 注册的eureka 服务器地址

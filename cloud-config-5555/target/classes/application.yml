@@ -1,0 +1,62 @@
+server:
+  port: 5555
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+       server:
+         git:
+           uri: https://github.com/xubangzhugit/config.git
+           #uri: git@github.com:xubangzhugit/config.git
+           search-paths:
+             - config
+#           username: 18773037748@163.com
+#           password: xubangzhu920322
+#           force-pull: true
+#           skip-ssl-validation: true
+       label: master
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: git@github.com:xubangzhugit/config.git
+#          ignoreLocalSshSettings: true
+#          hostKey: someHostKey
+#          hostKeyAlgorithm: ssh-rsa
+#          search-paths:
+#            - config
+#          privateKey: |
+#                   -----BEGIN RSA PRIVATE KEY-----
+#                   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
+#                   NhAAAAAwEAAQAAAQEAybERMy8O8h3sTeSmLjH1CCDIbt5qp84r6p04/fZA+mSfC+7wmTu6
+#                   eg6191xUVpZjVUBfdoMLT1nZOzsMdtnKlNKF5zpaNfPEJ4EaH82PHSIDXJqN2DZ48fCJfZ
+#                   1Ls1SXWTNBHKToDhdIFoQCgxkBej05gZAv6g6MlenoMQxxCvZHrFm/IIRVFLLoIl7G+XCi
+#                   PPDo6AkBywrPzAAGD6yN225aCjwIKk6Yn9fIl2BA8CfzDs2Dft3XNF/vAL3RZTNVhNOjHr
+#                   O5uZviXq6H4LA/OJ9NLfhqJ1PyUlBFdG+pOPLuN0IGXxNuwsuHA0cM8/B8SxIyxSBPXsIo
+#                   dwU02Y2lvwAAA9AZ1qtAGdarQAAAAAdzc2gtcnNhAAABAQDJsREzLw7yHexN5KYuMfUIIM
+#                   hu3mqnzivqnTj99kD6ZJ8L7vCZO7p6DrX3XFRWlmNVQF92gwtPWdk7Owx22cqU0oXnOlo1
+#                   88QngRofzY8dIgNcmo3YNnjx8Il9nUuzVJdZM0EcpOgOF0gWhAKDGQF6PTmBkC/qDoyV6e
+#                   gxDHEK9kesWb8ghFUUsugiXsb5cKI88OjoCQHLCs/MAAYPrI3bbloKPAgqTpif18iXYEDw
+#                   J/MOzYN+3dc0X+8AvdFlM1WE06Mes7m5m+JerofgsD84n00t+GonU/JSUEV0b6k48u43Qg
+#                   ZfE27Cy4cDRwzz8HxLEjLFIE9ewih3BTTZjaW/AAAAAwEAAQAAAQA0YFoiG5dbArBJ7hXF
+#                   q02BhdnnCLVTzHOVIq0ZLmjjXVv8IlmywVMEvWs9yGlSbw1upx/jS9aVDbUe74+mEZrNGP
+#                   qS+JFSr3IB/EHHfn8qxplu4+fv/P1dfuSFjWKKOG5xSKEhCiYE+sDKsA9i8gxzLREQ91uq
+#                   AYs6pxqYGi4E9Uewtev7PNnaETAlNP7daxybfoJ7ivoXeCEyLTlYtlK9rqz/1gHISG/ZZa
+#                   QnGvUn7LWrR2ljxoFyc18RSJvb4DS4UUOQzKWjeHljnW8BsJEqXNJI7P/7fDg+WRefm1Qk
+#                   1rkPxqTYdLvP0YUzKz28gfrzS57lrWKLgZTP4HiqfDp5AAAAgQCBa/okj+5aS+t/C3B/t9
+#                   4OMCrMggXdKLjcLZb2gqi0iJlSXx2IzcZGj0jkwwJ/bfHiUvH+wd85zSHT65lrAJYCev6y
+#                   b5YlvrFds9YE16aB8XvCyZalMFMwLjWPJkQ4A2xNNS54LvbpEGlulsQKDySvUNB7Yw1xyt
+#                   o61XbH2KWjZwAAAIEA7qRQ1SmAVMFk/qTzpKclgQ+DF9N0j5YwJhbncncQXeRHENnzgfW+
+#                   moaM9gf4p2udz1187ex83KeKMx4s8aA3owvb646MpCYs3BnbuvvhvMEqlx1SiRj5MSYl+N
+#                   mKGiuwpVOYS/gTZE/ni3OyKyVpG+Tgk2mTeVQ2gkKFZsJBUiMAAACBANhctk7N3PsfQiVh
+#                   mouf1dyXgOPtX5vpR54D4TbNjEQfJNa9xLOobYOoySMVePRIcuP9aT48LLRR0+vMjJ10/S
+#                   HZyxbSvY7XxJINi/VLdbQqnxrZrh+foJGSMK1vXahwsEnYMLxi6kGGOsZYzpWq+UhnLZLD
+#                   UhvWd9li2r2qcNG1AAAAEzE4NzczMDM3NzQ4QDE2My5jb20BAgMEBQYH
+#                   -----END RSA PRIVATE KEY-----

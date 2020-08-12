@@ -1,0 +1,25 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: cloud-geteway-service
+  cloud:
+    gateway:
+      routes:
+        - id: payment routh #payment route
+          uri: http://localhost:8004
+          predicates:
+            - Path=/hyxtrix/testok/** #路由的ID,没有固定规则但要求唯一,建议配合服务名井匹院后提供服务的路由地址断言，路径相匹配的进行路由
+        - id: payment routh2 #payment route
+          uri: http://localhost:8004
+          predicates:
+            - Path=/hyxtrix/timeout/** #路由的D,没有固定规则但要求唯一,建议配合服务名井匹配后提供服务的路由地址井断言，路径相匹配的进行路由
+            - After=
+eureka:
+  instance:
+    hostname: cloud-geteway
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+    fetch-registry: true
+    register-with-eureka: true

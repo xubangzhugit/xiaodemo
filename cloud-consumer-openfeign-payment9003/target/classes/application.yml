@@ -1,0 +1,11 @@
+server:
+  port: 9003
+
+eureka:
+  client:
+    register-with-eureka: false  #true 表示将自己注册进eureka 服务注册中心
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ # 注册的eureka 服务器地址
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,8 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: cloud-consumer-paymentzk9002
+  cloud:
+    zookeeper:
+      connect-string: 192.168.122.138:2181
