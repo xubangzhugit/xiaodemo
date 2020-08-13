@@ -7,6 +7,11 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
 spring:
+  rabbitmq:
+    host: 192.168.102.139
+    port: 5672
+    username: guast
+    password: guast
   application:
     name: application
   cloud:
@@ -60,3 +65,9 @@ spring:
 #                   HZyxbSvY7XxJINi/VLdbQqnxrZrh+foJGSMK1vXahwsEnYMLxi6kGGOsZYzpWq+UhnLZLD
 #                   UhvWd9li2r2qcNG1AAAAEzE4NzczMDM3NzQ4QDE2My5jb20BAgMEBQYH
 #                   -----END RSA PRIVATE KEY-----
+  # 暴露监控端口
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "bus/refresh"

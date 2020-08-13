@@ -14,7 +14,7 @@ spring:
           uri: http://localhost:8004
           predicates:
             - Path=/hyxtrix/timeout/** #路由的D,没有固定规则但要求唯一,建议配合服务名井匹配后提供服务的路由地址井断言，路径相匹配的进行路由
-            - After=
+            - After=2020-08-11T05:52:01.087+08:00[Asia/Shanghai] # 断言，在改时间之后进行路由
 eureka:
   instance:
     hostname: cloud-geteway
