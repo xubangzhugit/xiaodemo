@@ -23,6 +23,10 @@
         <module name="cloud-provider-payment8003" />
         <module name="cloud-stream-consumer5657" />
         <module name="cloud-stream-provider5656" />
+        <module name="cloudalibaba-config-10020" />
+        <module name="cloudalibaba-consumer-10055" />
+        <module name="cloudalibaba-provider-10000" />
+        <module name="cloudalibaba-provider-10001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +46,10 @@
       <module name="cloud-provider-payment8003" target="1.8" />
       <module name="cloud-stream-consumer5657" target="1.8" />
       <module name="cloud-stream-provider5656" target="1.8" />
+      <module name="cloudalibaba-config-10020" target="1.8" />
+      <module name="cloudalibaba-consumer-10055" target="1.8" />
+      <module name="cloudalibaba-provider-10000" target="1.8" />
+      <module name="cloudalibaba-provider-10001" target="1.8" />
       <module name="springCloud2020" target="1.8" />
     </bytecodeTargetLevel>
   </component>

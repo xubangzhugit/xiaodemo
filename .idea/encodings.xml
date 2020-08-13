@@ -18,6 +18,10 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-consumer5657" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-stream-provider5656" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-config-10020" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-10055" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-10000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-10001" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

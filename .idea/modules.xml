@@ -18,6 +18,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-consumer5657/cloud-stream-consumer5657.iml" filepath="$PROJECT_DIR$/cloud-stream-consumer5657/cloud-stream-consumer5657.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-provider5656/cloud-stream-provider5656.iml" filepath="$PROJECT_DIR$/cloud-stream-provider5656/cloud-stream-provider5656.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-config-10020/cloudalibaba-config-10020.iml" filepath="$PROJECT_DIR$/cloudalibaba-config-10020/cloudalibaba-config-10020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-10055/cloudalibaba-consumer-10055.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-10055/cloudalibaba-consumer-10055.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-10000/cloudalibaba-provider-10000.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-10000/cloudalibaba-provider-10000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-10001/cloudalibaba-provider-10001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-10001/cloudalibaba-provider-10001.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud2020.iml" filepath="$PROJECT_DIR$/.idea/springCloud2020.iml" />
     </modules>
   </component>

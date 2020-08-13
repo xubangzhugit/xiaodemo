@@ -25,6 +25,10 @@
       <module>cloud-configClient-5544</module>
       <module>cloud-stream-provider5656</module>
       <module>cloud-stream-consumer5657</module>
+    <module>cloudalibaba-provider-10000</module>
+    <module>cloudalibaba-provider-10001</module>
+    <module>cloudalibaba-consumer-10055</module>
+      <module>cloudalibaba-config-10020</module>
   </modules>
   <name>Maven</name>
   <!-- FIXME change it to the project's website -->

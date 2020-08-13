@@ -1,0 +1,11 @@
+server:
+  port: 10055
+spring:
+  application:
+    name: nacos-consumer10055
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+service-url:
+  nacos-user-service: http://nacos10000
