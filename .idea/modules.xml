@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-10055/cloudalibaba-consumer-10055.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-10055/cloudalibaba-consumer-10055.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-10000/cloudalibaba-provider-10000.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-10000/cloudalibaba-provider-10000.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-10001/cloudalibaba-provider-10001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-10001/cloudalibaba-provider-10001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-8400/cloudalibaba-sentinel-8400.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-8400/cloudalibaba-sentinel-8400.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud2020.iml" filepath="$PROJECT_DIR$/.idea/springCloud2020.iml" />
     </modules>
   </component>

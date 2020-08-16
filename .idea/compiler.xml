@@ -27,6 +27,7 @@
         <module name="cloudalibaba-consumer-10055" />
         <module name="cloudalibaba-provider-10000" />
         <module name="cloudalibaba-provider-10001" />
+        <module name="cloudalibaba-sentinel-8400" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -50,6 +51,7 @@
       <module name="cloudalibaba-consumer-10055" target="1.8" />
       <module name="cloudalibaba-provider-10000" target="1.8" />
       <module name="cloudalibaba-provider-10001" target="1.8" />
+      <module name="cloudalibaba-sentinel-8400" target="1.8" />
       <module name="springCloud2020" target="1.8" />
     </bytecodeTargetLevel>
   </component>

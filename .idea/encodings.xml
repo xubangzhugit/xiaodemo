@@ -22,6 +22,7 @@
     <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-10055" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-10000" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloudalibaba-provider-10001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-sentinel-8400" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

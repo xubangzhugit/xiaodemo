@@ -29,6 +29,7 @@
     <module>cloudalibaba-provider-10001</module>
     <module>cloudalibaba-consumer-10055</module>
       <module>cloudalibaba-config-10020</module>
+      <module>cloudalibaba-sentinel-8400</module>
   </modules>
   <name>Maven</name>
   <!-- FIXME change it to the project's website -->
