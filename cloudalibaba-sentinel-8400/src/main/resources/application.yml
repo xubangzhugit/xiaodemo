@@ -1,0 +1,30 @@
+
+spring:
+  application:
+    name: sentinel
+  cloud:
+    nacos:
+      discovery:
+        #nacos 服务注册中心地址
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        # 配置sentinel 的dashboard地址
+        dashboard: localhost:8080
+        #默认端口，假如端口被占用，系统会自动加1 直到端口可用
+        port: 8719.
+      datasource:
+        ds1:
+          nacos:
+            
+server:
+  port: 8400
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: "*"
+#开启sentinnel对feign的支持
+feign:
+  sentinel:
+    enabled: true
