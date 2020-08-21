@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-10001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -76,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-8400/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1142">
-              <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -139,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-8400/src/main/java/com/springCloud/controller/SentinelTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+            <state relative-caret-position="426">
+              <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
@@ -282,133 +282,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-openfeign-payment9003" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudalibaba-sentinel-8400" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -420,7 +294,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597612843345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597613351283" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -428,7 +302,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/cloud-consumer-payment9001/src/main/java/com/springCloud/com" />
   </component>
   <component name="RecentsManager">
@@ -650,7 +524,7 @@
       <workItem from="1596772257776" duration="459000" />
       <workItem from="1596807319147" duration="348000" />
       <workItem from="1596855966417" duration="84451000" />
-      <workItem from="1597307543723" duration="23724000" />
+      <workItem from="1597307543723" duration="24330000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <created>1597251225755</created>
@@ -663,7 +537,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158815000" />
+    <option name="totallyTimeSpent" value="159421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,8 +549,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -686,7 +559,7 @@
       <window_info id="Designer" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4982639" visible="true" weight="0.26918977" />
       <window_info id="Structure" order="7" sideWeight="0.5017361" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.6497868" weight="0.11915368" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.6497868" visible="true" weight="0.11902113" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.41257995" side_tool="true" weight="0.27728286" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32925472" />
@@ -703,7 +576,7 @@
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.32925472" />
       <window_info anchor="bottom" id="Problems" order="16" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.58742005" visible="true" weight="0.38375974" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.58742005" weight="0.38375974" />
       <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.25692964" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -1060,7 +933,7 @@
     <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-10001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1110,7 +983,7 @@
     <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-8400/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1142">
-          <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1123,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-8400/src/main/java/com/springCloud/controller/SentinelTestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+        <state relative-caret-position="426">
+          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
