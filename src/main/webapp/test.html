@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+   var socket ;
+   if(window.WebSocket){
+       socket = new WebSocket("ws://localhost:8899/ws");
+       socket.onmessage = function(e){
+       var va = document.getElementById("responsemessage");
+         va.value = va.value+"/n"+e.data;
+       }
+       socket.onopen = function(e){
+       var va = document.getElementById("responsemessage");
+         va.value = va.value+"/n"+"链接开启";
+       }
+       socket.onclose = function(e){
+       var va = document.getElementById("responsemessage");
+         va.value = va.value+"/n"+"链接关闭";
+       }
+   }else{
+    alert("不支持websocket");
+   }
+   function send(message){
+     if(!window.WebSocket){
+            return;
+     }else{
+            if(socket.readyState == WebSocket.OPEN){
+                socket.send(message);
+            }else{
+               alert("链接未开启");
+            }
+     }
+
+   }
+</script>
+<form onsubmit="return false;">
+    <textarea name="message" style="width:400px;height:200px;">
+
+    </textarea>
+    <button type="button" value="send" name="send" onclick="send(this.form.message.value)"></button>
+    <h3>服务器输出</h3>
+    <textarea id="responsemessage" style="width:400px;height:200px;">
+
+    </textarea>
+    <button type="button" value="refresh" name = "refresh"  onclick=" "></button>
+</form>
+
+</body>
+</html>
